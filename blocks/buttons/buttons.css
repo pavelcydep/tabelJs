@@ -1,0 +1,10 @@
+.buttons{
+    display: flex;
+   flex-direction: row;
+}
+@media (max-width: 800px){
+    .buttons {
+     margin-left: auto;
+     margin-right: auto;
+    }
+   }

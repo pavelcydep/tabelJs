@@ -1,0 +1,24 @@
+.td__time{
+    color:red;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+    .td__time{
+     
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+      .td__time::before {
+          display: block;
+          text-align: right;
+          content: attr(aria-label);
+          float: left;
+          font-weight: bold;
+         
+      }
+  
+  
+  
+  }

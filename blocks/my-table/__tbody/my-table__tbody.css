@@ -1,0 +1,7 @@
+.my-table__tbody{
+    width: 100%;
+  
+    flex-direction: column;
+  
+}
+

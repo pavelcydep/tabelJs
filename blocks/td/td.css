@@ -1,0 +1,21 @@
+@import url('./__user/td__user.css');
+@import url('./td__recycling/td__recycling.css');
+@import url('./td__time/td__time.css');
+.td{
+    color:red;
+   
+}
+
+@media screen and (max-width: 800px) {
+    
+    .td::before {
+        display: block;
+        text-align: right;
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+
+
+
+}

@@ -1,0 +1,12 @@
+@import url('./__container/header__container.css');
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+box-sizing: border-box;
+  height: 41px;
+border-bottom:solid   rgb(224, 208, 208);
+    border-top:solid rgb(224, 208, 208);
+}

@@ -1,0 +1,13 @@
+@import url('./_mobile/btn-justify_mobile.css');
+.btn-justify{
+    display: block;
+}
+@media screen and (max-width: 962px) {
+    .btn-justify{
+     
+    display: none;
+    }
+     
+  
+  
+  }

@@ -1,0 +1,15 @@
+.title{
+    font-size: calc(24px + 16 * (100vw / 1280));
+}
+
+@media (max-width: 767px){
+    .title {
+     font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+   }
+   @media (max-width: 320px){
+    .title {
+     display: flex;
+     max-width: 180px;
+    }
+   }

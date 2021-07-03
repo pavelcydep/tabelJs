@@ -1,0 +1,27 @@
+.td__recycling{
+    color:red;
+}
+@media screen and (max-width: 800px) {
+    .td__recycling{
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+      .td__recycling::before {
+          display: block;
+         
+          content: attr(aria-label);
+         
+          font-weight: bold;
+         
+      }
+  }
+  @media screen and (max-width: 426px) {
+    .td__recycling{
+    
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+}

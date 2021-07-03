@@ -1,0 +1,17 @@
+@import url('page/page.css');
+@import url('./header/header.css');
+@import url('./main/main.css');
+@import url('./my-button/my-button.css');
+@import url('./navigation/navigation.css');
+@import url('./navigation/_display/navigation_display.css');
+@import url('./my-table/my-table.css');
+@import url('./buttons/buttons.css');
+@import url('./icon/icon.css');
+@import url('./td/td.css');
+@import url('./tr/tr.css');
+@import url('./thead/thead.css');
+@import url('./th/th.css');
+@import url('./navbar-togler-color/navbar-togler-color.css');
+@import url('./btn-justify/btn-justify.css');
+@import url('./title/title.css');
+@import url('./btn-warning_mobile/btn-warning_mobile.css');

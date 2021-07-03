@@ -1,0 +1,15 @@
+@import url('./_display/main_display.css');
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   margin-left:auto ;
+   margin-right: auto;
+}
+@media  (max-width : 962px)  {
+    .main{
+width: 100%;
+    
+  }
+  
+  }

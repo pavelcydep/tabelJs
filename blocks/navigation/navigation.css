@@ -1,0 +1,27 @@
+@import url('./__item/navigation__item.css');
+@import url('./__items/navigation__items.css');
+@import url('./_display/navigation_display.css');
+@import url('./_mobile/navigation_mobile.css');
+.navigation{
+display: flex;
+flex-direction: column;
+    width:20%;
+    
+    border-right:solid rgb(224, 208, 208);
+
+}
+
+@media  (max-width : 962px)  {
+    .navigation{
+   display: none;
+    
+  }
+  
+  }
+  @media  (max-width : 800px)  {
+    .navigation{
+   display: none;
+  
+  }
+  
+  }

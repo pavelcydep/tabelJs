@@ -1,0 +1,8 @@
+.btn-warning_mobile.btn-warning_mobile.btn-warning_mobile{
+display: block;
+}
+@media screen and (max-width: 320px) {
+    .btn-warning_mobile{
+   padding: 0;
+    }
+  }

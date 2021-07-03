@@ -1,0 +1,8 @@
+.thead{
+    display: table-header-group;
+}
+@media screen and (max-width: 800px) {
+    .thead {
+        display: none;
+    }
+}
